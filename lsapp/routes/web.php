@@ -13,21 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-// Adding routing to about page
-Route::get('/', 'PagesController@index');
-Route::get('/about', 'PagesController@about');
-Route::get('/services', 'PagesController@services');
-
-
-
-
-/*
-    Route::get('/users/{id}/{name}', function ($id, $name) {
-        return 'This is user: '. $name . 'with an id of: ' . $id;
-    });
-
-    Route::get('/', function () {
-        return view('welcome');
-    });
-*/
+Route::get('/', 'PageController@index');
+Route::get('/about', 'PageController@about');
+Route::get('/services', 'PageController@services');
