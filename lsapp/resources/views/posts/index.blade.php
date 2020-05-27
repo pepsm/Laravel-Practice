@@ -2,7 +2,6 @@
 
 @section('content')
 
-    <div class="container">
     <h1>Posts</h1>
         <hr>
 
@@ -17,5 +16,4 @@
     @else
         <p>No posts found</p>
     @endif
-    </div>
 @endsection
