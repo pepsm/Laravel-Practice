@@ -10942,24 +10942,29 @@ a.text-dark:focus {
 
 .navbar-nav .nav-item {
   width: 12vw;
-  cursor: pointer;
   margin-right: 2vw;
+}
+
+.nav-item .nav-link {
+  cursor: pointer;
   border-radius: 4px;
   background: #1b1e21;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: ease-in-out 0.7s;
-}
-
-.nav-item .nav-link {
+  width: 12vw;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.56);
 }
 
-.navbar-nav .nav-item:hover {
+.navbar-nav .nav-link:hover {
   transition: ease-in-out 0.7s;
   background: #2d995b;
   color: white;
+}
+
+.container {
+  margin-top: 5vh;
 }
 
