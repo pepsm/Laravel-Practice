@@ -4,6 +4,8 @@
         <a href="/posts" class="btn btn-outline-dark">Go Back</a>
         <br><br>
         <h3>{{$post->title}}</h3>
+        <img height="20%" src="/storage/cover_images/{{$post->cover_image}}" alt="" style="width: 100%">
+        <br><br>
         <div>
             {{$post->body}}
         </div>
