@@ -20,13 +20,117 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="836b69f7-92c0-4abc-9fe4-8a1d46923bda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_05_31_181857_add_cover_image_to_posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/.idea/freeCodeGram.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/.idea/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/public/mix-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/public/svg/freeCodeCampLogo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/js/components/ExampleComponent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/views/auth/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/views/auth/passwords/email.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/views/auth/passwords/reset.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/views/auth/register.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/views/auth/verify.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/views/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/views/layouts/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freeCodeGram/webpack.mix.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +257,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laracast" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -172,7 +277,8 @@
       <option name="presentableId" value="Default" />
       <updated>1590508159153</updated>
       <workItem from="1590508166448" duration="19220000" />
-      <workItem from="1590841331848" duration="7329000" />
+      <workItem from="1590841331848" duration="7830000" />
+      <workItem from="1591423159198" duration="85000" />
     </task>
     <servers />
   </component>
@@ -199,6 +305,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1590509301778" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1591423241630">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1591423241630" />
     <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1590601526417">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
