@@ -15,6 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'PageController@welcome' );
 
-Route::get('/test', 'TestController@test');
-
-Route::get('/post/{id}','TestController@testparam');
+Route::get('/posts', 'PostController@index');
