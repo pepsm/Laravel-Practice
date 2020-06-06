@@ -10,4 +10,9 @@ class PageController extends Controller
 
         return view('welcome')->with('title', 'Welcome to The Laracast Blog');
     }
+
+    public function  about(){
+
+        return view('about');
+    }
 }

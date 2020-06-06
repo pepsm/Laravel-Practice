@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'PageController@welcome' );
+Route::get('/about', 'PageController@about' );
+
 
 Route::get('/posts', 'PostController@index');
