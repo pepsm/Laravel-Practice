@@ -185,7 +185,7 @@ class PostController extends Controller
         {
             return redirect('posts')->with('error', 'Unauthorized Page');
         }
-        if($post-cover_image != 'noimage.jpg'){
+        if($post->cover_image != 'noimage.jpg'){
                 // Delete Image
             Storage::delete('public/cover_images/'.$post->cover_image);
         }
