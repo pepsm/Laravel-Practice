@@ -1,0 +1,53 @@
+* {
+  --color-active: #f75939;
+}
+
+.welcome-container {
+  background: white;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  width: 100%;
+  height: 94vh;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-container .header {
+  text-align: center;
+}
+
+.welcome-container .header h1 {
+  font-size: 50px;
+  margin: 3% 0;
+  font-weight: 800;
+}
+
+.welcome-container .highlight {
+  margin-top: 5%;
+  font-weight: bold;
+  color: var(--color-active);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn-highlight {
+  margin-top: 2%;
+  background: var(--color-active);
+  color: white;
+  transition: all .2s ease-in-out;
+}
+
+.btn-highlight:hover {
+  color: white;
+  transform: scale(1.1);
+  background: #fd6742;
+}
+
+.btn-container {
+  margin-bottom: 12vh;
+}
+/*# sourceMappingURL=welcome.css.map */

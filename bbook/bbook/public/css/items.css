@@ -1,0 +1,124 @@
+html {
+  --bg: hsl(0, 0%, 97%);
+  --bg-panel: hsl(0, 0%, 100%);
+  --bg-panel-hover: hsl(0, 0%, 98%);
+  --btn:hsl(240,8%, 42%);
+  --btn-bg: hsl(0, 0%, 88%);
+  --btn-bg: hsl(0, 0%, 88%);
+  --color-text: hsl(240,8%, 32%);
+  --color-text-drop: hsl(240,8%, 22%);
+  --color-text-hover:hsl(240,8%, 12%);
+}
+
+html[data-theme='dark'] {
+  --bg: hsl(240,8%, 16%);
+  --bg-panel: hsl(240,8%, 22%);
+  --bg-panel-hover: hsl(240,8%,28%);
+  --btn: hsl(0, 0%, 90%);
+  --btn-bg: hsl(240,8%, 32%);
+  --color-text: hsl(0, 0%, 90%);
+  --color-text-drop:hsl(0, 0%, 95%);
+  --color-text-hover: hsl(0, 0%, 100%);
+}
+
+.wrapper {
+  border-color: var(--bg-panel);
+  color: var(--color-text);
+  margin-top: 4%;
+  width: 100%;
+}
+
+.wrapper h3 {
+  font-size: 14px;
+  margin: 0px 10%;
+}
+
+.post-area {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.post-area .post-item {
+  margin-bottom: 20px;
+  box-shadow: 0px -1px 21px 0px rgba(0, 0, 0, 0.34);
+  position: relative;
+  background: var(--bg-panel);
+  width: 480px;
+  height: 390px;
+}
+
+.post-area .img-container {
+  height: 85%;
+  margin: 12px;
+  position: relative;
+}
+
+.post-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+}
+
+.post-item a .cover:hover {
+  opacity: 0.6;
+}
+
+.post-item a .cover {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  top: 0;
+  transition: .5s ease;
+  opacity: 0;
+  cursor: pointer;
+  position: absolute;
+  background: black;
+}
+
+.post-item a {
+  text-decoration: none;
+}
+
+.post-item a .cover h6 {
+  color: var(--color-text);
+  font-size: 16px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.post-item small {
+  padding-left: 15px;
+  letter-spacing: 2px;
+}
+
+.post-item .additional {
+  color: var(--color-text);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-left: 35px;
+}
+
+.item-show-img {
+  width: 100%;
+  height: 400px;
+  box-shadow: 0px -1px 21px 0px #4b4b58;
+  border-radius: 3px;
+  object-fit: cover;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.headers-divider {
+  height: 1px;
+  margin: 0.5rem 0 5% 0;
+  overflow: hidden;
+  border-top: 1px solid #e9ecef;
+}
+/*# sourceMappingURL=items.css.map */
