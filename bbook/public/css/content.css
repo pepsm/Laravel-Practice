@@ -1,0 +1,55 @@
+html {
+  --bg: hsl(0, 0%, 97%);
+  --bg-panel: hsl(0, 0%, 100%);
+  --bg-panel-hover: hsl(0, 0%, 98%);
+  --btn:hsl(240,8%, 42%);
+  --btn-bg: hsl(0, 0%, 88%);
+  --btn-bg: hsl(0, 0%, 88%);
+  --color-text: hsl(240,8%, 32%);
+  --color-text-drop: hsl(240,8%, 22%);
+  --color-text-hover:hsl(240,8%, 12%);
+}
+
+html[data-theme='dark'] {
+  --bg: hsl(240,8%, 16%);
+  --bg-panel: hsl(240,8%, 22%);
+  --bg-panel-hover: hsl(240,8%,28%);
+  --btn: hsl(0, 0%, 90%);
+  --btn-bg: hsl(240,8%, 32%);
+  --color-text: hsl(0, 0%, 90%);
+  --color-text-drop:hsl(0, 0%, 95%);
+  --color-text-hover: hsl(0, 0%, 100%);
+}
+
+/* Content */
+.content-container {
+  display: block;
+  justify-content: space-evenly;
+  color: var(--color-text);
+}
+
+@media (prefers-color-scheme: dark) {
+  .content-container .btn {
+    background-color: var(--bg-panel);
+    color: var(--color-text);
+  }
+}
+
+.panel-wrapper {
+  background-color: var(--bg-panel);
+  color: var(--color-text);
+}
+
+.content-group {
+  margin: 1rem 0rem;
+  padding: 50px 5rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.col-space {
+  display: flex;
+  justify-content: space-evenly;
+}
+/*# sourceMappingURL=content.css.map */

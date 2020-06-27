@@ -1,0 +1,164 @@
+// Variables
+@import 'variables';
+
+html {
+    --bg: hsl(0, 0%, 97%);
+	--bg-panel: hsl(0, 0%, 100%);
+    --bg-panel-hover: hsl(0, 0%, 98%);
+    --btn:hsl(240,8%, 42%);
+    --btn-bg: hsl(0, 0%, 88%);
+    --btn-bg: hsl(0, 0%, 88%);
+    --color-text: hsl(240,8%, 32%);
+    --color-text-drop: hsl(240,8%, 22%);
+    --color-text-hover:hsl(240,8%, 12%);
+}
+  
+html[data-theme='dark'] {
+    --bg: hsl(240,8%, 16%);
+    --bg-panel: hsl(240,8%, 22%);
+    --bg-panel-hover: hsl(240,8%,28%);
+    --btn: hsl(0, 0%, 90%);
+    --btn-bg: hsl(240,8%, 32%);
+    --color-text: hsl(0, 0%, 90%);
+    --color-text-drop:hsl(0, 0%, 95%);
+    --color-text-hover: hsl(0, 0%, 100%);
+}
+  
+h1, h2, h3 {
+    font-family: $font-family;
+}
+  
+  
+body {
+    background-color: var(--bg);
+    overflow-x: hidden;
+}
+
+nav {
+	font-size: $font-size-nav;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+	background-color: var(--bg-panel);
+
+	a {
+		text-decoration: none;
+		color: var(--color-text);
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: var(--color-text);
+	}
+
+	.btn-theme {
+		color: var(--color-text);
+		background-color: var(--bg-panel);
+
+		.navbar-toggler-icon{
+			background-color: var(--bg);
+		}
+	}
+	  
+	.btn-theme:hover {
+		color: var(--color-text);
+		background-color: var(--bg);
+	}
+	
+	.theme{
+		color: var(--color-text);		
+		background-color: var(--bg-panel);
+	}
+
+	.theme:hover{
+		color: var(--color-text-hover);
+		
+		a:hover{
+			background-color: var(--bg-panel-hover);
+		}
+	}
+
+}
+
+/* Theme dropdown */
+
+.dropdown-menu{	
+	width: max-content;	
+	background-color: var(--bg-panel);
+
+	.theme-container {
+		display: flex;
+		width: 100%;
+		padding: 0.25rem 1.5rem;
+	}
+
+
+	.tgl {
+		display: none; 
+
+		&,
+		&:after,
+		&:before,
+		& *,
+		& *:after,
+		& *:before,
+		& + .tgl-btn {
+			box-sizing: border-box;
+			&::selection {
+				background: none;
+			}
+		}
+
+		+ .tgl-btn {
+			outline: 0;
+			display: block;
+			width: 3em;
+			margin: 0em 15px; 
+			height: 1.5em;
+			position: relative;
+			cursor: pointer;
+		user-select: none;
+			&:after,
+		&:before {
+				position: relative;
+				display: block;
+				content: "";
+				width: 50%;
+				height: 100%;
+			}
+		
+			&:after {
+				left: 0;
+			}
+		
+			&:before {
+				display: none;
+			}
+		}
+
+		&:checked + .tgl-btn:after {
+			left: 50%;
+		}
+	}
+
+	.tgl-light {
+		+ .tgl-btn {
+			background: #f0f0f0;
+			border-radius: 2em;
+			padding: 2px;
+			transition: all .4s ease;
+			&:after {
+				border-radius: 50%;
+				background: #fff;
+				transition: all .2s ease;
+			}
+		}
+
+		&:checked + .tgl-btn {
+			background: #74e08a;
+		}
+	}
+}
